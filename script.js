@@ -28,7 +28,7 @@ Start.addEventListener('click', function () {
 
 });
 
-
+showLap.innerText = "";
 Lap.addEventListener('click', function () {
     console.log("Disabled");
        if (Lap.innerText === "Reset") {
@@ -37,5 +37,5 @@ Lap.addEventListener('click', function () {
         Lap.innerText = 'Lap'; 
     }
 
-    showLap.innerText = "Ashik"; 
+    showLap.innerText += "Ashik"; 
 });
